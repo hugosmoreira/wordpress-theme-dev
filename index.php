@@ -42,7 +42,7 @@
             </nav>
         </header>
 
-        <section class="banner">
+        <section class="banner cycle-slideshow">
             <?php if ( is_active_sidebar( 'home_banner_slider' ) ) : ?>
                 
                     <?php dynamic_sidebar( 'home_banner_slider' ); ?>
@@ -81,5 +81,6 @@
             <p><small>Powered by <a href="<?php echo bloginfo('url'); ?>"><?php echo bloginfo('name'); ?></a></small> | <?php echo date('Y'); ?></p>
         </div>
     </div>
+    <?php wp_footer(); ?>
 </body>
 </html>
