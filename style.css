@@ -9,3 +9,107 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 */
+
+body {
+    margin: 0;
+    background-color: gainsboro;
+
+}
+
+#container{
+    width: 1000px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    
+}
+
+.mainheader {
+    background-color: gainsboro;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.custom-logo {
+    width: 250px;
+    height: auto;
+    padding: 15px;
+    float: left;
+}
+
+.custom-logo img {
+    width: 50%;
+    height: auto;
+}
+
+.search {
+    width: 300px;
+    height: auto;
+    float: right;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+#search_field{
+    width: 290px;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+#search_btn {
+    width: 70px;
+    height: auto;
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+    margin-left: -76px;
+}
+
+.main-menu {
+    background-color: teal;
+    font-family: sans-serif;
+}
+
+.main-menu  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul > li {
+    display: inline-block;
+}
+
+.main-menu ul > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: small;
+    text-decoration: none;
+}
+
+.main-menu ul > li > a:hover {
+    background-color: orange;
+}
+
+.main-menu ul > li > ul {
+    background-color: black;
+    position: absolute;
+}
+
+.main-menu ul > li > ul > li {
+    display: block;
+}
+
+.main-menu ul > li > ul > li {
+    width: 150px;
+}
+
+.main-menu ul > li:hover ul{
+    display: block;
+}
